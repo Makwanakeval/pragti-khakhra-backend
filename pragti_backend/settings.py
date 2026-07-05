@@ -154,10 +154,10 @@ SECRET_KEY = config('SECRET_KEY')
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://pragti-khakhra-frontend.vercel.app",   # ← your ACTUAL Vercel URL goes here
+    "https://pragti-khakhra-frontend.vercel.app/",   # ← your ACTUAL Vercel URL goes here
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://*.onrender.com',
-    'https://pragti-khakhra-frontend.vercel.app',   # ← same URL here too
+    'https://pragti-khakhra-frontend.vercel.app/',   # ← same URL here too
 ]
