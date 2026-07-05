@@ -150,6 +150,7 @@ import os
 MEDIA_FILE_CACHE_SECONDS = 60 * 60 * 24 * 7
 
 GROQ_API_KEY = config('GROQ_API_KEY')   
+SECRET_KEY = config('SECRET_KEY')
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
